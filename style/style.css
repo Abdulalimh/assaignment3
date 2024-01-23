@@ -7,23 +7,27 @@ body{
 .header{
     position: relative;
     width: 1170px;
+    height: 57px;
     margin-left:auto;
-    margin-right: auto
+    margin-right: auto;
+   
+
+
 }
 .nav-div{
-    /* width: 1170px;
-    margin-left: auto;
-    margin-right: auto; */
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+    padding: 0px;
+    
+
     
 }
 .nav-hoc{
     color: #131318;
     font-family: Manrope;
     font-size: 36px;
-    font-weight: 800;
+    font-weight: bold;
 }
 .div-a{
     display: flex;
@@ -63,6 +67,76 @@ span{
     font-size: 2.8rem;
     color: black;
     display: none;
+}
+
+
+
+
+
+/* First section  */
+/* First section  */
+/* First section  */
+
+.first-section{
+    position: relative;
+    width: 1170px;
+    height: 550px;
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url("../images/1.png");
+}
+.first-h-p{
+    position: absolute;
+    right: 32px;
+    bottom: 32px;
+    width: 526px;
+    height: 126px;
+    border-radius: 16px;
+    background-color: #131318;
+    padding: 20px 20px ;
+
+}
+.first-h{
+    color: #FFF;
+    font-family: Manrope;
+    font-size: 24px;
+    font-weight: 800;
+    padding-bottom: 0px;
+    margin-bottom: 16px;
+    margin-top: 8px;
+    
+}
+.first-p{
+    color: rgba(255, 255, 255, 0.60);
+    font-family: Manrope;
+    font-size: 16px;
+    font-weight: 500;
+    
+}
+.first-icon{
+    position: absolute;
+    left: 32px;
+    bottom: 32px;
+    display: flex;
+
+}
+.left-icon{
+    width: 24px;
+    height: 24px;
+    background-color: #131318;
+    border-radius: 16px;
+    padding: 4px;
+    
+}
+.right-icon{
+    width: 24px;
+    height: 24px;
+    background-color: #131318;
+    border-radius: 16px;
+    margin-left: 16px;
+    padding: 4px;
+    
 }
 
 
