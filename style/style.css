@@ -146,6 +146,44 @@ span{
 /* First section  */
 /* First section  end */
 
+/* section profeshon  */
+/* section profeshon  */
+
+.sec-profeshon{
+    width: 1170px;
+    height: 189px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 70px;
+    border-top:2px rgba(128, 128, 128, 0.364) dotted ;
+    border-bottom: 2px rgba(128, 128, 128, 0.418) dotted;
+}
+.prof-h{
+    /* width: 472px;
+    height: 49px; */
+    color: #131318;
+    text-align: center;
+    align-items: center;
+    font-family: Manrope;
+    font-size: 36px;
+    font-weight: 800;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    
+}
+.prof-p{
+    /* width: 607px;
+    height: 52px; */
+    color: rgba(19, 19, 24, 0.60);
+    text-align: center;
+    font-family: Manrope;
+    font-size: 16px;
+    font-weight: 500;
+    padding-left: 250px;
+    padding-right: 250px;
+}
+
 
 
 
@@ -238,6 +276,22 @@ span{
         display: flex;
 }
 
+
+/* section profeshonal  */
+
+.sec-profeshon{
+    width: 500px;
+    height: 166px;
+}
+.prof-h{
+    font-size: 24px;
+}
+.prof-p{
+    font-size: 14px;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-top: 20px;
+}
 
     
 }
