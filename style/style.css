@@ -1,4 +1,60 @@
-h1{
-    color: blue;
-    font-size: 40px;
+/* font link  */
+body{
+    font-family: 'Manrope', sans-serif;
 }
+/* font link  */
+
+.nav-div{
+    width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.div-a{
+    display: flex;
+    gap: 44px;
+    text-decoration: none;
+    
+}
+.div-a>a{
+    text-decoration: none;
+}
+.nav-div-ch{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-btn{
+    border: none;
+    border-radius: 8px;
+    background: #FF4240;
+    padding: 8px 16px;
+    margin-left: 15px;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    text-align: center;
+    font-family: Manrope;
+    font-size: 16px;
+    font-weight: 700; 
+}
+
+span{
+    color: #FF4240;
+}
+
+
+
+
+
+
+
+
+
+ /* Mobile devise media quare  */
+ /* Mobile devise media quare  */
+ /* Mobile devise media quare  */
+
