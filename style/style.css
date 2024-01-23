@@ -544,6 +544,83 @@ span{
 }
 
 
+/* section clinets  */
+/* section clinets  */
+/* section clinets  */
+
+.sec-clinet{
+    width: 1170px;
+    height: 189px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 450px;
+    border-top:2px rgba(128, 128, 128, 0.364) dotted ;
+    border-bottom: 2px rgba(128, 128, 128, 0.418) dotted;
+    margin-bottom: 60px;
+}
+.clinet-h{
+    color: #131318;
+    text-align: center;
+    align-items: center;
+    font-family: Manrope;
+    font-size: 36px;
+    font-weight: 800;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+.clinet-p{
+    color: rgba(19, 19, 24, 0.60);
+    text-align: center;
+    font-family: Manrope;
+    font-size: 16px;
+    font-weight: 500;
+    padding-left: 250px;
+    padding-right: 250px;
+}
+
+
+/* section our equpment  */
+/* section our equpment  */
+
+.equpment-container{
+    width: 1170px;
+    height: 534px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px gainsboro solid;
+    border-radius: 16px;
+}
+.equpment-div{
+    display: flex;
+    gap: 30px;align-items: center;
+}
+
+.our-equpment{
+
+    display:inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top:1px rgba(19, 19, 24, 0.10) solid ;
+    width: 600px;
+}
+#first-equp{
+    border-top:none ;
+}
+.equp-img{
+    width: 441px;
+    height: 470px;
+    margin-top: 30px;
+    margin-left: 30px;
+    
+}
+#equp-p{
+    margin-right: 100px;
+    padding-right: 50px;
+}
+
+
+
 
 
 
@@ -870,6 +947,7 @@ span{
     top: 3050px;
     width: 500px;
     height: 166px;
+    
 }
 .our-h{
     font-size: 24px;
@@ -883,6 +961,108 @@ span{
 
 /* our */
 
+.our-container{
+    position: relative;
+    top: 1670px;
+    width: 540px;
+    height: 278px;
+    margin-left: auto;
+    margin-right: auto;
+    display:grid;
+    grid-template-columns: repeat(1, 1fr);
+}
+
+.head-div{
+    width: 320px;
+    height: 453px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    display: block;
+    align-items: center;
+
+}
+.images5-size{
+    width: 300px;
+    height: 200px;
+    margin-top: 20px;
+    justify-content: center;
+    text-align: center;
+    
+    
+
+}
+.our-text-div{
+    margin-left: 5px;
+}
+.our-head-icon{
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+}
+#our-h3{
+    color: #131318;
+    font-family: Manrope;
+    font-size: 20px;
+    font-weight: 800;
+    margin-top: 0px;
+    margin-bottom: 0;
+
+}
+#our-p{
+    margin-top: 5px;
+    padding-top: 0;
+    padding-right: 20px;
+    margin-bottom: 0px;
+    color: rgba(19, 19, 24, 0.60);
+    font-family: Manrope;
+    font-size: 16px;
+    font-weight: 500;
+}
+#price{
+    margin-right: 10px;
+    margin-top: 5px;
+    padding-top: 0;
+    color: #FF4240;
+    font-family: Manrope;
+    font-size: 18px;
+    font-weight: 800;
+    
+}
+#delivery{
+    color: rgba(19, 19, 24, 0.50);
+    font-family: Manrope;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+
+
+/* section our  */
+/* section our  */
+
+.clinet-div{
+    position: relative;
+    width: 540px;
+    height: 166px;
+}
+
+.sec-clinet{
+    position: relative;
+    top: 3870px;
+    width: 500px;
+    height: 166px;
+    
+}
+.clinet-h{
+    font-size: 24px;
+}
+.clinet-p{
+    font-size: 14px;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-top: 20px;
+}
 
 
 }
