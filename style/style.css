@@ -1065,4 +1065,63 @@ span{
 }
 
 
+
+/* section our equpment  */
+
+.equpment-container{
+    width: 500px;
+    height: 702px;
+    margin-left: auto;
+    margin-right: auto;
+    border:1px gainsboro solid;
+    border-radius: 16px;
+    position: relative;
+    top: 3850px;
+}
+.equpment-div{
+    display: block;
+    align-items: center;
+    
+}
+
+.our-equpment{
+    
+    display:inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top:1px rgba(19, 19, 24, 0.10) solid ;
+    width: 450px;
+    padding-left: 20px;
+    
+}
+.our-equpment h3{
+    color: #131318;
+    font-family: Manrope;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 8px;
+    margin-bottom: 8px;
+
+}
+#first-equp{
+    border-top:none ;
+    margin-top: 20px;
+}
+.equp-img{
+    width: 440px;
+    height: 270px;
+    margin-top: 30px;
+    margin-left: 30px;
+    align-items: center;
+}
+#equp-p{
+    margin-right: 100px;
+    padding-right: 50px;
+    padding-left: 20px;
+    margin-top: 5px;
+}
+
+
+
+
 }
