@@ -138,8 +138,13 @@ span{
     padding: 4px;
     
 }
+.img{
+    display: none;
+}
 
-
+/* First section  */
+/* First section  */
+/* First section  end */
 
 
 
@@ -151,26 +156,28 @@ span{
  /* Mobile devise media quare  */
  /* Mobile devise media quare  */
 
-@media screen and (max-width : 600px) {
+@media screen and (max-width : 576px) {
 
  .header{
-    background-color: aqua;
-    width: 540px;
+    width: 550px;
     margin-left: auto;
     margin-right: auto;
- }   
+ }  
+ .nav-div{
+    justify-content: space-around;
+ } 
+ 
 .icons{
+    width: 24px;
     display: inline-flex;
-    margin-left: 10px;
     margin-right: 10px;
+
 }
 
 .div-a{
     display: none;
     width: 100%;
     height: 150px;
-    justify-content: left;
-    position: absolute;
     top: 100%;
     background-color: #FF4240;
     
@@ -180,5 +187,57 @@ span{
     font-size: 1.1em;
     margin: 1.5rem 0;
 }
+.ch-icon{
+    display: none;
+}
+.nav-hoc{
+    font-size: 24px;
+}
+ 
+     /**** End  ****/
+
+     /**** Stert  ****/
+
+/* First section  */
+
+.first-section{
+    background-image: none;
+    position: relative;
+    width: 540px;
+    height: 460px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.img{
+    position: relative;
+    display: block;
+    width: 500px;
+    height: 300px;
+}
+.first-h-p{
+    position: absolute;
+    bottom: -26px;
+    width: 460px;
+    height: 130px;
+    left: -4px;
+    background-color: #131318;
+    color: #FFF;
+   
+}
+.first-h{
+    font-size: 18px;
+}
+.first-p{
+    font-size: 14px;
+}
+.first-icon{
+        position: absolute;
+        top: 250px;
+        left: 215px;
+        display: flex;
+}
+
+
     
 }
