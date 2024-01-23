@@ -447,6 +447,7 @@ span{
     margin-top: 90px;
     border-top:2px rgba(128, 128, 128, 0.364) dotted ;
     border-bottom: 2px rgba(128, 128, 128, 0.418) dotted;
+    margin-bottom: 60px;
 }
 .our-h{
     color: #131318;
@@ -466,6 +467,80 @@ span{
     font-weight: 500;
     padding-left: 250px;
     padding-right: 250px;
+}
+
+/* our products section  */
+/* our products section  */
+/* our products section  */
+
+.our-container{
+    width: 1170px;
+    height: 278px;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3,1fr);
+    grid-gap: 22px;
+}
+
+.head-div{
+    display: inline-flex;
+    width: 540px;
+    align-items: center;
+    border-radius: 16px;
+    border: 1px solid rgba(19, 19, 24, 0.10);
+    padding-left: 32px;
+    
+
+}
+.images5-size{
+    width: 180px;
+    height: 172px;
+
+}
+.our-text-div{
+    margin-left: 20px;
+}
+.our-head-icon{
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+}
+#our-h3{
+    color: #131318;
+    font-family: Manrope;
+    font-size: 20px;
+    font-weight: 800;
+    margin-top: 0px;
+    margin-bottom: 0;
+
+}
+#our-p{
+    margin-top: 5px;
+    padding-top: 0;
+    padding-right: 20px;
+    margin-bottom: 0px;
+    color: rgba(19, 19, 24, 0.60);
+    font-family: Manrope;
+    font-size: 16px;
+    font-weight: 500;
+}
+#price{
+    margin-right: 10px;
+    margin-top: 5px;
+    padding-top: 0;
+    color: #FF4240;
+    font-family: Manrope;
+    font-size: 18px;
+    font-weight: 800;
+    
+}
+#delivery{
+    color: rgba(19, 19, 24, 0.50);
+    font-family: Manrope;
+    font-size: 16px;
+    font-weight: 500;
 }
 
 
@@ -806,6 +881,8 @@ span{
     margin-top: 20px;
 }
 
-/* sec-junior  */
+/* our */
+
+
 
 }
