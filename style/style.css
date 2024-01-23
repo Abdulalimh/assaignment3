@@ -621,6 +621,45 @@ span{
 
 
 
+/* section get  */
+/* section get  */
+/* section get  */
+
+.get-div-main{
+    width:1170px ;
+    height: 189px;
+    border-top: 1px red dotted ;
+    border-bottom: 1px red dotted ;
+    margin-top: 80px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.get-div{
+    text-align: center;
+    align-items: center;
+}
+.get-div h1{
+    color: #131318;
+text-align: center;
+font-family: Manrope;
+font-size: 36px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.get-div p{
+    width: 607px;
+    margin-left: 300px;
+    color: rgba(19, 19, 24, 0.60);
+    text-align: center;
+    font-family: Manrope;
+    font-size: 16px;
+    font-weight: 500;
+
+}
+
+
+
 
 
 
