@@ -782,6 +782,22 @@ span{
 
 
 
+/* section  */
+.socal-midea{
+    width: 1170px;
+    height: 150px;
+    margin-top: 100px;
+    padding-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 12px;
+    background: rgba(19, 19, 24, 0.03);
+    align-items: center;
+    text-align: center;
+}
+
+
+
 
 
 
@@ -1436,6 +1452,16 @@ span{
     border-radius: 12px;
     border: 1px solid #FF4240;
     background: #FF4240;
+}
+
+
+/* section  */
+/* section  */
+.socal-midea{
+    width: 450px;
+    position: absolute;
+    top: 9050px;
+    margin-left: 24px;
 }
 
 
