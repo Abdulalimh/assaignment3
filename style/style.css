@@ -628,8 +628,8 @@ span{
 .get-div-main{
     width:1170px ;
     height: 189px;
-    border-top: 1px red dotted ;
-    border-bottom: 1px red dotted ;
+    border-top: 1px solid rgba(19, 19, 24, 0.10); ;
+    border-bottom:1px solid rgba(19, 19, 24, 0.10); ;
     margin-top: 80px;
     margin-left: auto;
     margin-right: auto;
@@ -664,6 +664,25 @@ line-height: normal;
 /* section  */
 /* section  */
 /* section  */
+
+.end-main-div{
+    display: flex;
+    gap: 24px;
+    width: 1170px;
+    height: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    
+
+}
+.form-div{
+    width: 672px;
+    height: 700px;
+    margin-top: 50px;
+    
+
+}
+
 .end-group-div{
     margin-top: 60px;
     width: 474px;
@@ -691,11 +710,75 @@ line-height: normal;
 }
 #phone{
     margin-top: 38px;
+    background: rgba(188, 237, 109, 0.10);
+    border-radius: 16px;
+}
+#mas{
+    border-radius: 16px;
+    background: rgba(253, 221, 95, 0.10);
 }
 #locition{
     margin-bottom: 38px;
+    border-radius: 16px;
+    background: rgba(98, 156, 243, 0.10);
+
+
+}
+.form input{
+    width: 324px;
+    height: 64px;
+    border-radius: 8px;
+    border: none;
+    border-radius: 12px;
+    background: rgba(19, 19, 24, 0.03);
+}
+.form h3{
+    color: #131318;
+    font-family: Manrope;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: relative;
+}
+::placeholder{
+    position: absolute;
+    top: 20px;
+    padding-left: 10px;
+    color: rgba(19, 19, 24, 0.30);
+    font-family: Manrope;
+    font-size: 16px;
+    font-weight: 400;
+    
+    
+   
+}
+.mas-input{
+    width: 672px;
+    height: 310px;
+    border-radius: 12px;
+    background: rgba(19, 19, 24, 0.03);
+    border: none;
+
+
 }
 
+.form-flex{
+    display: flex;
+    gap: 24px;
+}
+.form-btn{
+    display: flex;
+    width: 672px;
+    padding: 15px 24px;
+    margin-top: 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 12px;
+    border: 1px solid #FF4240;
+    background: #FF4240;
+}
 
 
 
