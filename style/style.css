@@ -796,6 +796,30 @@ span{
     text-align: center;
 }
 
+footer{
+    width: 1440px;
+    height: 454px;
+    margin-left: auto;
+    margin-right: auto;
+    background: #131318;
+    
+}
+.footer-div{
+    display: grid;
+    grid-template-columns: 400px 200px 200px 200px;
+    grid-gap: 80px;
+    padding-top: 80px;
+    align-items: center;
+    margin-left: 135px;
+    margin-top: 80px;
+    color: #FFF;
+}
+.footer-flex{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
 
 
 
