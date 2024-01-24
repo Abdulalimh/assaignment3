@@ -640,12 +640,11 @@ span{
 }
 .get-div h1{
     color: #131318;
-text-align: center;
-font-family: Manrope;
-font-size: 36px;
-font-style: normal;
-font-weight: 800;
-line-height: normal;
+    text-align: center;
+    font-family: Manrope;
+    font-size: 36px;
+
+    font-weight: 800;
 }
 .get-div p{
     width: 607px;
@@ -1281,6 +1280,163 @@ line-height: normal;
 }
 
 
+
+
+/* get section  */
+/* get section  */
+/* get section  */
+
+.get-div-main{
+    position: relative;
+    width: 540px;
+    height: 166px;
+}
+
+.get-div{
+    position: relative;
+    top: 3800px;
+    width: 500px;
+    height: 166px;
+    border-top:1px rgba(128, 128, 128, 0.364) dotted ; ;
+    border-bottom:1px rgba(128, 128, 128, 0.364) dotted ; ;
+    
+}
+.get-div-h{
+    font-size: 24px;
+}
+
+#get-div-p{
+    width: 450px;
+    text-align: center;
+    font-size: 14px;
+    margin-left: 0px;
+    padding-left: 20px;
+    
+}
+
+
+
+/* sextion  */
+/* sextion  */
+/* sextion  */
+
+.end-main-div{
+    display: block;
+    position: absolute;
+    margin-left: 30px;
+    top: 7350px;
+    gap: 24px;
+    width: 540px;
+    height: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    
+
+}
+.form-div{
+    display:block;
+    width: 500px;
+    height: 700px;
+    margin-top: 50px;
+    margin-left: 24px;
+    
+
+}
+
+.end-group-div{
+    margin-top: 60px;
+    width: 474px;
+    height: 700px;
+    border: 1px red solid;
+    border-radius: 16px;
+    border: 1px solid rgba(19, 19, 24, 0.10);
+}
+
+.end-div{
+    width: 374px;
+    height: 200px;
+    margin: 12px 50px;
+    border-radius: 12px;
+    
+
+}
+.end-img{
+    padding: 10px 32px;
+}
+.img-group{
+    width: 48px;
+    height: 48px;  
+    border-radius: 8px;
+}
+#phone{
+    margin-top: 38px;
+    background: rgba(188, 237, 109, 0.10);
+    border-radius: 16px;
+}
+#mas{
+    border-radius: 16px;
+    background: rgba(253, 221, 95, 0.10);
+}
+#locition{
+    margin-bottom: 38px;
+    border-radius: 16px;
+    background: rgba(98, 156, 243, 0.10);
+
+
+}
+.form input{
+    width: 450px;
+    height: 64px;
+    border-radius: 8px;
+    border: none;
+    border-radius: 12px;
+    background: rgba(19, 19, 24, 0.03);
+}
+.form h3{
+    color: #131318;
+    font-family: Manrope;
+    font-size: 20px;
+    font-weight: 700;
+    position: relative;
+}
+::placeholder{
+    position: absolute;
+    top: 20px;
+    padding-left: 10px;
+    color: rgba(19, 19, 24, 0.30);
+    font-family: Manrope;
+    font-size: 16px;
+    font-weight: 400;
+    
+    
+   
+}
+.mas-input{
+    width: 450px;
+    height: 310px;
+    border-radius: 12px;
+    background: rgba(19, 19, 24, 0.03);
+    border: none;
+
+
+}
+
+.form-flex{
+    display: block;
+
+}
+.form-btn{
+    display: flex;
+    width: 450px;
+    padding: 15px 24px;
+    margin-top: 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 12px;
+    border: 1px solid #FF4240;
+    background: #FF4240;
+}
 
 
 }
