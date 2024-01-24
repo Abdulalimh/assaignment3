@@ -661,6 +661,34 @@ line-height: normal;
 
 
 
+/* section  */
+/* section  */
+/* section  */
+.end-group-div{
+    width: 474px;
+    height: 764px;
+    border: 1px red solid;
+}
+
+.end-div{
+    width: 374px;
+    height: 200px;
+    margin: 12px 50px;
+    border-radius: 12px;
+    background-color: aquamarine;
+
+}
+.end-img{
+    padding: 10px 32px;
+}
+.img-group{
+    width: 48px;
+    height: 48px;  
+    border-radius: 8px;
+}
+
+
+
 
 
 
